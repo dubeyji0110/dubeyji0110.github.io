@@ -1,0 +1,92 @@
+@font-face {
+	font-family: "perstar";
+	src: url("../fonts/perstar.eot?9zevo5");
+	src: url("../fonts/perstar.eot?9zevo5#iefix") format("embedded-opentype"),
+		url("../fonts/perstar.ttf?9zevo5") format("truetype"),
+		url("../fonts/perstar.woff?9zevo5") format("woff"),
+		url("../fonts/perstar.svg?9zevo5#perstar") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ps {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "perstar" !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ps-behance:before {
+	content: "\e900";
+}
+.ps-bookmark:before {
+	content: "\e901";
+}
+.ps-compass:before {
+	content: "\e902";
+}
+.ps-diamond:before {
+	content: "\e903";
+}
+.ps-download:before {
+	content: "\e904";
+}
+.ps-facebook:before {
+	content: "\e905";
+}
+.ps-fingerprint:before {
+	content: "\e906";
+}
+.ps-flag:before {
+	content: "\e907";
+}
+.ps-googleplus:before {
+	content: "\e908";
+}
+.ps-home:before {
+	content: "\e909";
+}
+.ps-id-card:before {
+	content: "\e90a";
+}
+.ps-layers:before {
+	content: "\e90b";
+}
+.ps-left-arrow:before {
+	content: "\e90c";
+}
+.ps-list:before {
+	content: "\e90d";
+}
+.ps-multiply:before {
+	content: "\e90e";
+}
+.ps-notebook:before {
+	content: "\e90f";
+}
+.ps-notification:before {
+	content: "\e910";
+}
+.ps-right-arrow:before {
+	content: "\e911";
+}
+.ps-star:before {
+	content: "\e912";
+}
+.ps-twitter:before {
+	content: "\e913";
+}
+.ps-umbrella:before {
+	content: "\e914";
+}
+.ps-worldwide:before {
+	content: "\e915";
+}

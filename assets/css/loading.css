@@ -1,0 +1,36 @@
+#loading {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	background-color: #030408;
+}
+#loading .circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 80px;
+	height: 80px;
+	margin-top: -40px;
+	margin-left: -40px;
+	border-radius: 50%;
+	border: solid 5px #222;
+	border-top-color: #ccc;
+	animation: spin 1s infinite linear;
+}
+#loading.loaded {
+	display: none;
+}
+@keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@media (min-width: 992px) {
+	#loading {
+		display: block;
+	}
+}
